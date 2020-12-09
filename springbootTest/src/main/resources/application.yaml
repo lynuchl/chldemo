@@ -1,0 +1,12 @@
+student:
+ name: chlyaml
+ password: 123
+
+
+#激活版本/环境
+spring:
+  profiles:
+    active: dev
+
+
+

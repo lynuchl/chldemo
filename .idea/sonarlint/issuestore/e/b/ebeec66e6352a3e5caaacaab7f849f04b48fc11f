@@ -1,0 +1,13 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(§ú£ß8˜¯øÝÚ.
+]	java:S125"<This block of commented-out lines of code should be removed.(üÅå‡ûÿÿÿÿ8˜¯øÝÚ.
+]	java:S125"<This block of commented-out lines of code should be removed.(‹ ² øÿÿÿÿ8˜¯øÝÚ.
+Ž
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ú—Ô™úÿÿÿÿ8—óØÿÚ.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ú—Ô™úÿÿÿÿ8˜¯øÝÚ.
+[
+java:S3752">Add a "method" parameter to this "@RequestMapping" annotation.(·õ£ù8˜¯øÝÚ.
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(ŸÛ¯Ž8˜¯øÝÚ.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú—Ô™úÿÿÿÿ8˜¯øÝÚ.
+]	java:S125"<This block of commented-out lines of code should be removed.(ÓÔ§¹ùÿÿÿÿ8˜¯øÝÚ.
+X	java:S125"<This block of commented-out lines of code should be removed.(ù¿˜8˜¯øÝÚ.

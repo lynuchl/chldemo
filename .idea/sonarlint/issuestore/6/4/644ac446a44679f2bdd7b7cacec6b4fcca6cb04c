@@ -1,0 +1,8 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(’¾µ8¹ùÎÙ.
+k
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾8¹ùÎÙ.
+t
+java:S1104"TMake password a static final constant or non-public and provide accessors if needed.(¼şòüÿÿÿÿ8¹ùÎÙ.
+V	java:S125"<This block of commented-out lines of code should be removed.(úÂ“á8¹ùÎÙ.
+[	java:S125"<This block of commented-out lines of code should be removed.(ÎıÆÎıÿÿÿÿ8¹ùÎÙ.

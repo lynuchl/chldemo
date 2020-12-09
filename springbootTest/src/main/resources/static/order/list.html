@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket client</title>
+    <script type="text/javascript">
+        var socket;
+        if (typeof (WebSocket) == "undefined"){
+            alert("This explorer don't support WebSocket")
+        }else {
+
+	   //连接tomcat服务器
+          //socket =new WebSocket("ws://192.168.1.100:8081/kafkaWWebsocket/webSocket");
+
+	    socket =new WebSocket("ws://192.168.1.100:8081/webSocket");
+
+  	socket.onopen = function () {
+                alert("WebSocket is open");
+            }
+        }
+
+
+
+        // socket.onconnecting = function(evn) {
+        //   console.log("socket:onconnecting:", evn);
+        // };
+         socket.onopen = function(evn) {
+           socket.send("第一次");
+           console.log("socket:onopen:", evn);
+           // sendMsg(str);
+         };
+         socket.onmessage = function(evn) {
+           var rundata = JSON.parse(evn.data);
+           this.GetSocketData = rundata;
+           console.log(this.GetSocketData);
+         };
+
+
+
+
+        function connect() {
+            //Connect WebSocket server
+            //open
+     	// socket.onopen = function () {
+         //        alert("WebSocket is open");
+         //    }
+         //    //Get message
+         //    socket.onmessage = function (msg) {
+         //        //alert("Message is " + msg.data);
+		// console.log("message is "+msg.data)
+         //    }
+            //close
+        
+            //error
+            // socket.onerror = function (e) {
+            //     alert("Error is " + e.data);
+            // }
+
+
+        }
+       socket.onclose=function(){
+console.log("connect is close");
+}
+
+       
+
+        function sendMsg() {
+            socket.send("This is a client message ");
+        }
+    </script>
+</head>
+<body>
+<button onclick="connect()">connect</button>
+<button onclick="close()">close</button>
+<button onclick="sendMsg()">sendMsg</button>
+</body>
+</html>
