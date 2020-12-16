@@ -26,7 +26,7 @@ public class SaticScheduleTask {
     //或直接指定时间间隔，例如：5秒
     //@Scheduled(fixedRate=5000)
 
-    private void configureTasks(){
+    public void configureTasks(){
 
 
         webSocket.sendMessage("执行静态定时任务时间: " + LocalDateTime.now());

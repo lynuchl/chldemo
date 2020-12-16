@@ -1,9 +1,9 @@
 
-M
-java:S1068"+Remove this unused "msgList" private field.(èÆå—üÿÿÿÿ8£ÏêˆÛ.
-U	java:S106-"9Replace this use of System.out or System.err by a logger.(¯ŠÞÈ8£ÏêˆÛ.
-v
-java:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶ÙŸü8£ÏêˆÛ.
-X	java:S125)"<This block of commented-out lines of code should be removed.(ÖÇ¨Ñ8ëÚ²ÐÝ.
-N
-java:S1602,",Remove useless curly braces around statement(å‡¹Œýÿÿÿÿ8£ÏêˆÛ.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¯ŠÞÈ8£ÏêˆÛ.
+L
+java:S1602",Remove useless curly braces around statement(å‡¹Œýÿÿÿÿ8£ÏêˆÛ.
+K
+java:S1068"+Remove this unused "msgList" private field.(èÆå—üÿÿÿÿ8£ÏêˆÛ.
+V	java:S125"<This block of commented-out lines of code should be removed.(ÖÇ¨Ñ8ëÚ²ÐÝ.
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶ÙŸü8£ÏêˆÛ.
